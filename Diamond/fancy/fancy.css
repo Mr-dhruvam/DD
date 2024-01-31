@@ -1,0 +1,62 @@
+.leftMenu{
+    flex: 1;
+}
+
+.search{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid gray;
+}
+
+h1{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.cats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cat{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.content{
+    flex: 4;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.product{
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.imggs{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.name{
+    font-weight: 300;
+}
+
+.cat:hover {
+    color: #65c0c5;
+    transition: all 0.5s linear 0s;
+  }
